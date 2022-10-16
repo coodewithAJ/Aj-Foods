@@ -1,0 +1,38 @@
+.app__newsletter{
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background: var(--color-black);
+}
+.app__newsletter-heading{
+    text-align: center;
+}
+.app__newsletter-input{
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.app__newsletter-input input{
+    width: 600px;
+    border: 0.05px solid var(--color-golden);
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+    border-radius: 3px;
+    outline: none;
+}
+@media screen and (max-width:650px) {
+    .app__newsletter-input{
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    .app__newsletter-input input{
+        width: 300px;
+        margin-left: 2rem;
+        
+    }
+
+    
+}

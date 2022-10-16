@@ -1,0 +1,40 @@
+.app__gallery{
+    display: flex;
+    flex-direction: row;
+    background: var(--color-black);
+    padding: 4rem 0rem 4rem 6rem;
+}
+.app__gallery-images{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 1rem;
+   
+}
+.app__gallery-images img{
+    height: 180px;
+    width: 120px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:650px) {
+    .app__gallery{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0rem 2rem 2rem;
+        gap: 2rem;
+       
+    }
+    .app__gallery-images{
+        flex-wrap: wrap;
+        
+
+    }
+    .app__gallery-images img{
+        height: 200px;
+        width: 150px;
+        cursor: pointer;
+    }
+
+    
+}
